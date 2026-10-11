@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marjorie Catalan | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">MC</a>
+      <ul class="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle">🌙</button>
+        <button id="menu-toggle">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="section">
+    <div class="home-content">
+      <div class="home-text">
+        <h1>Marjorie Catalan</h1>
+        <h2 class="tagline" id="tagline">Aspiring Software Developer | BSINTE Student</h2>
+        <p>buBld responsive and user-friendly websites. Learning new technologies.</p>
+        <div class="cta">
+          <a href="#projects" class="btn primary">View my projects</a>
+          <a href="#contact" class="btn secondary">Contact me</a>
+        </div>
+      </div>
+      <div class="home-image">
+        <img src="image/profile.jpg" alt="Profile photo of Marjorie Catalan">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2 class="section-title">ABOUT</h2>
+    <div class="about-grid">
+      <div><h3>Brief Biography</h3><p>BSIT student learning about web development.</p></div>
+      <div><h3>Education</h3><p>Your School Name<br>BS Information Technology</p></div>
+      <div><h3>Career Goals</h3><p>To become a developer.</p></div>
+      <div><h3>Interests</h3><p>Web Dev, UI/UX, Gaming, Open Source</p></div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2 class="section-title">SKILLS</h2>
+    <div class="skills-grid">
+      <div class="skill-card"><h3>Technical</h3><ul><li>Web Dev</li><li>Responsive Design</li></ul></div>
+      <div class="skill-card"><h3>Languages</h3><ul><li>HTML, CSS, JS</li><li>Python, Java</li></ul></div>
+      <div class="skill-card"><h3>Tools</h3><ul><li>Git & GitHub</li><li>VS Code</li></ul></div>
+      <div class="skill-card"><h3>Soft Skills</h3><ul><li>Teamwork</li><li>Communication</li></ul></div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="HTML">HTML</button>
+      <button class="filter-btn" data-filter="CSS">CSS</button>
+      <button class="filter-btn" data-filter="JavaScript">JavaScript</button>
+    </div>
+    <div id="projects-container" class="projects-grid"></div>
+    <p id="projects-error" class="error hidden"></p>
+    <h3 class="subtitle">Latest GitHub Repositories</h3>
+    <div id="github-repos" class="repos-grid"></div>
+    <p id="github-error" class="error hidden"></p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2 class="section-title">CONTACT</h2>
+    <div class="contact-grid">
+      <div>
+        <p><strong>Email:</strong> catalanmarjorie0@example.com</p>
+        <p><strong>GitHub:</strong> github.com/catalanmarjorie</p>
+      </div>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Message" rows="5" required></textarea>
+        <button type="submit" class="btn primary">Send</button>
+        <p id="form-message"></p>
+      </form>
+    </div>
+  </section>
+
+  <button id="back-to-top">↑</button>
+  <footer><p>&copy; 2026 Marjorie Catalan</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
