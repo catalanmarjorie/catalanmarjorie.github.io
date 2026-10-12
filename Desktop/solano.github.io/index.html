@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenivee Solano | Portfolio</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home" class="logo">OOP Portfolio</a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <button id="themeBtn" type="button">🌙</button>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+<img src="image/profile.jpg" alt="profile">
+        >Aspiring Web Developer</p>
+        <h1>Hello, I'm Jenivee Solano!</h1>
+        <p>I am a student who enjoys learning about computers,
+           programming, and new technologies.</p>
+        <a href="#projects" class="btn">View My Projects</a>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am a college student who wants to improve my
+               programming skills and learn more about technology.
+               I believe that practice and patience help me grow.</p>
+            <p><strong>Education:</strong> College Student</p>
+            <p><strong>Career Goal:</strong> To become a skilled IT professional.</p>
+            <p><strong>Interests:</strong> Coding, music, learning, and technology.</p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="card">HTML</div>
+                <div class="card">CSS</div>
+                <div class="card">JavaScript</div>
+                <div class="card">Java Programming</div>
+                <div class="card">Problem Solving</div>
+                <div class="card">Communication</div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+           <div class="project-card">
+  <h3>Her New Project - Title Here</h3>
+  <p>Description of the project you made for her.</p>
+  <a href="https://solanojenivee.github.io/project-name" target="_blank">View Project</a>
+</div>
+
+            <h2 class="subheading">Latest GitHub Repositories</h2>
+            <div id="githubList" class="github-list">
+                <p>Loading repositories...</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>Feel free to send me a message.</p>
+
+            <form id="contactForm">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text"
+                       placeholder="Your name" required>
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email"
+                       placeholder="Your email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"
+                          placeholder="Write your message"
+                          required></textarea>
+
+                <button class="btn" type="submit">Send Message</button>
+                <p id="formMessage" role="status"></p>
+            </form>
+
+            <div class="social-links">
+                <a href="https://github.com/" target="_blank"
+                   rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/" target="_blank"
+                   rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jenivee Solano. All rights reserved.</p>
+    </footer>
+
+    <button id="backToTop" type="button" aria-label="Back to top">↑</button>
+
+      <script src="js/script.js"></script>
+</body>
+</html>

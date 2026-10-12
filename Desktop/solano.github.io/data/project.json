@@ -1,0 +1,10 @@
+[
+  {
+    "title": "My Portfolio Website",
+    "description": "A responsive website.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "role": "Designer and Developer",
+    "screenshot": "https://via.placeholder.com/600x400?text=Cafe+Project",
+    "link": "#"
+  }
+]
