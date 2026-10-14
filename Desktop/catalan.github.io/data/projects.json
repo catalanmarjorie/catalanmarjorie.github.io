@@ -1,10 +1,10 @@
 [
   {
     "title": "My Portfolio",
-    "description": "A responsive personal portfolio website built to showcase my skills, about me, and contact information. Built with HTML, CSS, and JavaScript and deployed on GitHub Pages.",
-    "tags": ["HTML", "CSS", "JavaScript"],
-    "image": "image/my-project.jpg",
-    "github": "https://github.com/catalanmarjorie/catalanmarjorie.github.io",
-    "demo": "https://catalanmarjorie.github.io"
+    "description": "A responsive personal portfolio website built to showcase my skills, about me, and contact information.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "role": "Developer",
+    "link": "https://catalanmarjorie.github.io",
+    "screenshot": "image/my-project.jpg"
   }
 ]
