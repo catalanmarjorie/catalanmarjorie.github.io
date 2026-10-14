@@ -1,0 +1,10 @@
+[
+  {
+    "title": "My Portfolio",
+    "description": "A responsive personal portfolio website built to showcase my skills, about me, and contact information.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "role": "Developer",
+    "link": "https://catalanmarjorie.github.io",
+    "screenshot": "image/project.jpg"
+  }
+]
